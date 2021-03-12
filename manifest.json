@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Chrome Netflix OMDB",
+    "name": "IMFlx",
     "version": "1.0",
-    "description": "Display OMDB ratings and data on Netflix shows and movies.",
+    "description": "Symbiosis between IMDB and Netflix. Displays IMDB ratings on Netflix titles.",
     "icons": {
         "16": "images/icon.png",
         "32": "images/icon.png",
