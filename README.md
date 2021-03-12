@@ -1,5 +1,5 @@
-# chrome-netflix-omdb
-Google Chrome extension to display OMDB ratings on Netflix movies and shows.
+# IMFlx
+Symbiosis between IMDB and Netflix. Displays IMDB ratings on Netflix titles.
 
 ## Instructions
 
