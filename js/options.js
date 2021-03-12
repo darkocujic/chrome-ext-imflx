@@ -8,6 +8,6 @@ function saveKey() {
 window.onload = () => {
     chrome.storage.local.get(['apiKey'], (res) => {
         console.log(res)
-        document.getElementById('apiKey').value = res.apiKey;
+        document.getElementById('apiKey').value = res.apiKey || '';
     })
 }
