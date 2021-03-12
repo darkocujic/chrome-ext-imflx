@@ -3,6 +3,12 @@
     "name": "Chrome Netflix OMDB",
     "version": "1.0",
     "description": "Display OMDB ratings and data on Netflix shows and movies.",
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
     "permissions": [
         "tabs",
         "storage",
@@ -15,6 +21,14 @@
     "web_accessible_resources": [
         "html/post-install.html"
     ],
+    "browser_action": {
+        "default_popup": "html/options.html"
+    },
+    "options_page": "html/options.html",
+    "options_ui": {
+        "page": "html/options.html",
+        "open_in_tab": false
+    },
     "content_scripts": [
         {
             "run_at": "document_start",
